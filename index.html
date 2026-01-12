@@ -677,9 +677,12 @@ switchport access vlan 10
         <pre class="code"><code># Inventarisatie
 show lldp neighbors
 show lldp neighbors detail
-show ip interface brief     # SVI (VLAN 30) en beheer-IP controleren</code></pre>
+show ip interface brief     # SVI (VLAN 30) en beheer-IP controleren 
+<li><a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst2960/software/release/12-2_37_ey/configuration/guide/scg/swlldp.pdf" target="_blank"> LLDP aanzetten</a></li></code></pre>
         <pre class="code"><code># Als LLDP niet werkt
-show cdp neighbors detail   # als LLDP geen mgmt-address toont</code></pre>
+show cdp neighbors detail   # als LLDP geen mgmt-address toont
+        <li><a href="https://www.cisco.com/c/en/us/support/docs/network-management/discovery-protocol-cdp/43485-cdponios43485.html" target="_blank"> CDP (en LLDP) aanzetten</a></li></code></pre>
+        
         <pre class="code"><code># Verificatie
 enable
 Show interface trunk 
@@ -707,3 +710,4 @@ Show version
 </body>
 
 </html>
+
